@@ -1,3 +1,6 @@
-###npm i
-###cd client -> npm i -> npm start  
-###cd server -> npm run dev
+###
+npm i
+###
+cd client -> npm i -> npm start  
+###
+cd server -> npm run dev
