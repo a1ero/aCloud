@@ -1,0 +1,60 @@
+.disk{
+    margin-top: 20px;
+}
+.disk__btns{
+    display: block;
+}
+.popup{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup__content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.popup__header{
+    display: flex;
+    justify-content: space-between;
+}
+.popup__input{
+    margin: 20px 0;
+}
+.popup__create{
+    align-self: flex-end;
+}
+.disk__upload_input{
+    display: none;
+}
+.disk__upload_label{
+    border: 1px dashed black;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+.disk__upload_label:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 50px - 50px);
+    margin-top: 20px;
+    border: 2px dashed rgb(156, 219, 255);
+    font-size: 30px;
+}

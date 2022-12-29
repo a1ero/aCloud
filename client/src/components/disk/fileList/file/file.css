@@ -1,0 +1,46 @@
+.file{
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(4, 1fr);
+    margin: 10px 0;
+    padding: 3px 0;
+    align-items: center;
+    border-bottom: 1px solid #5668856e;
+}
+.file__date{
+    grid-column-start: 5;
+    justify-self: center;
+}
+.file__size{
+    grid-column-start: 6;
+    justify-self: center;
+}
+.file__img {
+    justify-self: center;
+    width: 25px;
+}
+.file:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+.btn__download {
+    display: none;
+    margin-right: 5px;
+}
+.btn__delete {
+    display: none;
+    margin-left: 5px;
+}
+.file:hover .file__date {
+    grid-column-start: 3;
+}
+.file:hover .file__size {
+    grid-column-start: 4;
+}
+.file:hover .btn__download {
+    grid-column-start: 5;
+    display: block;
+}
+.file:hover .btn__delete {
+    grid-column-start: 6;
+    display: block;
+}
